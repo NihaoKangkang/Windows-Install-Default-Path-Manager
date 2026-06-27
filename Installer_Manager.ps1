@@ -13,7 +13,9 @@ $running = $true
 while ($running) {
     Clear-Host
     $CurrentPF = (Get-ItemProperty -Path $RegPath -Name "ProgramFilesDir").ProgramFilesDir
-    Write-Host "=== Installation Path Manager ===" -ForegroundColor Cyan
+    Write-Host "=== Windows Install Default Path Manager ===" -ForegroundColor Cyan
+    Write-Host "===         Author: Kyi Wong             ===" -ForegroundColor Cyan
+    
     Write-Host "Current Global Path: $CurrentPF" -ForegroundColor Yellow
     
     Write-Host "`n1. Update Global Path"
