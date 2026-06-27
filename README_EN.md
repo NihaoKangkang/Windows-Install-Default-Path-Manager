@@ -40,7 +40,7 @@ If prompted, click "Yes" to grant Administrator privileges when the UAC window a
 
 ## How it works
 
-The tool modifies core Windows Registry keys (`ProgramFilesDir`, `ProgramW6432Dir`) and creates NTFS Junctions to redirect data flow without breaking system dependencies.
+The tool modifies core Windows Registry keys (`ProgramFilesDir`, `ProgramW6432Dir`,`ProgramFilesDir (x86)`) and creates NTFS Junctions to redirect data flow without breaking system dependencies.
 
 ## Disclaimer
 
