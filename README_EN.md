@@ -27,7 +27,7 @@ EMAIL: `kyiwong97@gmail.com`
 - Run the following command to allow script execution:
 
 ```PowerShell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+powershell -ep bypass
 ```
 
 ### Run: Now you can run the script:
