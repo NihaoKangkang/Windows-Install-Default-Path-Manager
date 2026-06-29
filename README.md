@@ -28,7 +28,7 @@
 - 输入并执行以下命令以允许脚本运行：
 
 ```PowerShell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+powershell -ep bypass
 ```
 
 ### 运行: 现在你可以运行脚本了：
